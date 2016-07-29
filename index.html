@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Isabelle Dulin Portfolio">
 
     <title>IzzDesign</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
@@ -40,9 +42,12 @@
 
 </head>
 
+    <div id="loading">
+      <img id="loading-image" src="img/spin.gif" alt="Loading..." />
+    </div>
+
 <body id="page-top" class="index">
 
-<img src="img/spin.gif" id="load">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -781,9 +786,14 @@
     <script src="owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#load').remove();
             $("#owl-portfolio").owlCarousel({
-            });
+        });
+
+        jQuery(window).load(function(){
+
+            $("#loading").fadeOut("slow");
+
+        });
 
         });
     </script>
