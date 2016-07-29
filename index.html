@@ -42,6 +42,7 @@
 
 <body id="page-top" class="index">
 
+<img src="img/spin.gif" id="load">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -276,26 +277,6 @@
             </div>
         </div>
     </section>
-
-     <!-- Clients Aside -->
-   <!--  <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                </div>
-            </div>
-        </div>
-    </aside> -->
 
     <!-- About Section -->
     <section id="about">
@@ -800,8 +781,8 @@
     <script src="owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
+            $('#load').remove();
             $("#owl-portfolio").owlCarousel({
-                
             });
 
         });
