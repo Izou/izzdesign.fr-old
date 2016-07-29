@@ -258,9 +258,13 @@ section p.section-subheading{
 }
 
 @media (max-width:550px){
+	#header{
+		height: 750px;
+	}
+
 	header .intro-text{
 		width: 90%;
-		padding-top: 12em;
+		padding-top: 2em;
 		text-align: center;
 		float: none;
 		margin: 0 auto;
