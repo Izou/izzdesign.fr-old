@@ -54,9 +54,6 @@ $(function() {
     active(this);
   });
 
-  tableauStopItems = $('.close-video');
-  console.log(tableauStopItems);
-
   tableauStopItems.each(function() {
     this.addEventListener("click", function(){
       video.pause();
@@ -88,10 +85,6 @@ $(function() {
     focal.setAttribute('src', './img/portfolio/irre-liste.mp4');
     activefocal(this);
   });
-
-
-  tableauStopItems = $('.close-video');
-  console.log(tableauStopItems);
 
   tableauStopItems.each(function() {
     this.addEventListener("click", function(){
