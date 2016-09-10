@@ -1,0 +1,74 @@
+@media print {
+  @page {
+    margin: 0 0 0 10px;
+}
+
+  body { 
+  margin :0;
+  padding: 0;
+  border :none;
+}
+
+  img{
+    width: 99%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    vertical-align: middle;
+    margin-top: 10px;
+  }
+
+.none{
+   visibility: hidden;
+/*    margin: 0px;
+    padding:0px;*/
+  }
+
+  .btn{
+    margin:0;
+    padding: 0;
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@media screen{
+  
+  body{
+    background-color: #f7f7f7;
+}
+
+  .content{
+    display: block;
+    text-align: center;
+  }
+
+  img {
+    width:70%;
+    max-width: 1050px;
+    display: block;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .btn{
+    display: inline-block;
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+.btn:focus,.btn:active,.btn:active:focus{outline:0}
+.btn-primary{border:none;color:#fff;background-color:#fed136;font-family:"Helvetica Neue",'Roboto',Montserrat,Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700; padding: 10px;; font-size: 1.2em;}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active:focus,.btn-primary.active{color:#fff;background-color:#fec503;border-color:#f6bf01}
+.btn-primary:active{background-image:none}
+
+.close-modal{position:absolute;width:75px;height:75px;background-color:transparent;top:25px;right:25px;cursor:pointer}
+.close-modal:hover{opacity:.3}
+.close-modal .lr{height:75px;width:1px;margin-left:35px;background-color:#222;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);z-index:1051}
+.close-modal .lr .rl{height:75px;width:1px;background-color:#222;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);z-index:1052}
+.modal-backdrop{opacity:0;display:none}::-moz-selection{text-shadow:none;background:#fed136}::selection{text-shadow:none;background:#fed136}img::selection{background:0 0}img::-moz-selection{background:0 0}body{webkit-tap-highlight-color:#fed136}
+
+}

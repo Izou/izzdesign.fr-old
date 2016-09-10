@@ -1097,7 +1097,6 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
   text-decoration: none;
 }
 a:hover,
@@ -1338,7 +1337,6 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
 }
 a.text-primary:hover,
 a.text-primary:focus {
@@ -3118,8 +3116,6 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -3170,7 +3166,6 @@ fieldset[disabled] .btn-primary.focus {
   border-color: #2e6da4;
 }
 .btn-primary .badge {
-  color: #337ab7;
   background-color: #fff;
 }
 .btn-success {
@@ -3403,7 +3398,6 @@ fieldset[disabled] .btn-danger.focus {
 }
 .btn-link {
   font-weight: normal;
-  color: #337ab7;
   border-radius: 0;
 }
 .btn-link,
@@ -4730,7 +4724,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   margin-left: -1px;
   line-height: 1.42857143;
-  color: #337ab7;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -4949,7 +4942,6 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
   background-color: #fff;
 }
 .list-group-item > .badge {
@@ -5718,7 +5710,6 @@ button.list-group-item-danger.active:focus {
   border-top-color: #337ab7;
 }
 .panel-primary > .panel-heading .badge {
-  color: #337ab7;
   background-color: #fff;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {

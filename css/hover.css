@@ -50,15 +50,11 @@
 
 .grid figure h3 {
 	font-size: 2em;
+	margin: 0;
 }
 
 .grid figure h3 span {
 	font-weight: 800;
-}
-
-.grid figure h3,
-.grid figure p {
-	margin: 0;
 }
 
 /*---------------*/
@@ -99,15 +95,6 @@ figure.effect-honey h3 {
 	transform: translate3d(0,-30px,0);
 }
 
-figure.effect-honey h3 i {
-	font-style: normal;
-	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,-30px,0);
-	transform: translate3d(0,-30px,0);
-}
-
 figure.effect-honey figcaption::before,
 figure.effect-honey h3 {
 	-webkit-transition: -webkit-transform 0.35s;
@@ -115,8 +102,7 @@ figure.effect-honey h3 {
 }
 
 figure.effect-honey:hover figcaption::before,
-figure.effect-honey:hover h3,
-figure.effect-honey:hover h3 i {
+figure.effect-honey:hover h3 {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);

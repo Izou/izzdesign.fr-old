@@ -29,6 +29,11 @@ body{
 	color:#777
 }
 
+.flag{
+	width:24px;
+	margin-bottom: 5px;
+}
+
 .text-primary{color:#fed136}
 
 p{
@@ -48,12 +53,17 @@ p.bold{
 
 .image.fit {
 	display: block;
-	margin: 0 0 0.1em 0;
-	width: 100%;
+	width: 80%;
+	max-width:900px;
+	margin:0 auto;
 }
 
 .image.fit img {
 	width: 100%;
+}
+
+#owl-portfolio{
+	margin-bottom: 4em;
 }
 
 a,a:hover,a:focus,a:active,a.active{outline:0}
@@ -93,7 +103,7 @@ header{
   width:100%;
   height:100%;
   z-index:10;
-  background:url('../img/header-bg.jpg') #c0c0c0 bottom center fixed no-repeat;
+  background:url('../img/assets/header-bg.jpg') #c0c0c0 bottom center fixed no-repeat;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -213,7 +223,7 @@ section p.section-subheading{
 @media (max-width:1112px){
 	header{
 	 	background-position: 10% 0;
-  		background:url('../img/header-bg2.jpg') #c0c0c0 bottom center fixed no-repeat;
+  		background:url('../img/assets/header-bg2.jpg') #c0c0c0 bottom center fixed no-repeat;
   		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -382,12 +392,12 @@ section p.section-subheading{
 .timeline>li{margin-bottom:50px;position:relative;min-height:50px}
 .timeline>li:before,.timeline>li:after{content:" ";display:table}
 .timeline>li:after{clear:both}
-.timeline>li .timeline-panel{width:100%;float:right;padding:0 20px 0 100px;position:relative;text-align:left}
+.timeline>li .timeline-panel{width:100%;float:right;padding:0 20px 0 30px;position:relative;text-align:left}
 .timeline>li .timeline-panel:before{border-left-width:0;border-right-width:15px;left:-15px;right:auto}
 .timeline>li .timeline-panel:after{border-left-width:0;border-right-width:14px;left:-14px;right:auto}
 .timeline>li .timeline-image{left:0;margin-left:0;width:80px;height:80px;position:absolute;z-index:100;background-color:#fed136;color:#fff;border-radius:100%;border:7px solid #f1f1f1;text-align:center}
 .timeline>li .timeline-image h4{font-size:10px; margin:0;line-height:14px}
-.timeline>li.timeline-inverted>.timeline-panel{float:right;text-align:left;padding:0 20px 0 100px}
+.timeline>li.timeline-inverted>.timeline-panel{float:right;text-align:left;padding:0 20px 0 30px}
 .timeline>li.timeline-inverted>.timeline-panel:before{border-left-width:0;border-right-width:15px;left:-15px;right:auto}
 .timeline>li.timeline-inverted>.timeline-panel:after{border-left-width:0;border-right-width:14px;left:-14px;right:auto}
 .timeline>li:last-child{margin-bottom:0}
@@ -426,17 +436,17 @@ section p.section-subheading{
 
 @media (min-width:1200px){
 	.timeline>li{min-height:170px}
-	.timeline>li .timeline-panel{padding:0 20px 20px 100px}
+	.timeline>li .timeline-panel{padding:0 20px 20px 30px}
 	.timeline>li .timeline-image{width:170px;height:170px;margin-left:-85px}
 	.timeline>li .timeline-image h4{margin-top:40px}
-	.timeline>li.timeline-inverted>.timeline-panel{padding:0 100px 20px 20px}
+	.timeline>li.timeline-inverted>.timeline-panel{padding:0 30px 20px 20px}
 }
 
 /*End Time line*/
 
 
 section#contact{
-	background-image:url(../img/contact.jpg);
+	background-image:url(../img/assets/contact.jpg);
 	background-repeat:no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -448,14 +458,14 @@ section#contact .section-heading{color:#fff; margin-top: 1.2em;}
 
 @media (max-width:1500px){
 	section#contact{
-		background-image:url(../img/contact2.jpg);
+		background-image:url(../img/assets/contact2.jpg);
 		height: auto;
 	}
 }
 
 footer{padding:25px 0;text-align:center}
-footer span.copyright{line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
-footer ul.quicklinks{margin-bottom:0;line-height:40px;font-family:"Helvetica Neue",'Roboto',Montserrat,Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
+footer span.copyright{line-height:40px;font-family:'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
+footer ul.quicklinks{margin-bottom:0;line-height:40px;font-family:"Helvetica Neue",'Roboto','Montserrat',Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
 
 ul.social-buttons{margin-bottom:0}
 ul.social-buttons li a{display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:20px;line-height:40px;color:#fff;outline:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
@@ -561,9 +571,3 @@ video::-webkit-media-controls-fullscreen-button {
     from {opacity:0;}
     to {opacity:100%;}
 
-
-/*Portfolio Perso*/
-
-.perso{
-	margin-top: 5em;
-}
