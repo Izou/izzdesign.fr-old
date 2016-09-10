@@ -34,19 +34,24 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-        <script>
-            !window.jQuery && document.write('<script src="assets/jquery.fancybox-1.3.4/fancybox/jquery-1.4.3.min.js"><\/script>');
-        </script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-    <script type="text/javascript" src="assets/jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-        <script type="text/javascript" src="assets/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-        <link rel="stylesheet" type="text/css" href="assets/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-        <link rel="stylesheet" href="assets/jquery.fancybox-1.3.4/style.css" />
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="/assets/fancybox-2/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="/assets/fancybox-2/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="/assets/fancybox-2/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="/assets/fancybox-2/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="/assets/fancybox-2/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <link rel="stylesheet" href="/assets/fancybox-2/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="/assets/fancybox-2/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
         <script type="text/javascript">
             $(document).ready(function() {
-                $(".popin").fancybox();
+                $(".popin").fancybox({
+                });
             })
         </script>
 
@@ -98,7 +103,7 @@
                     <h2 class="section-heading">Portfolio</h2>
                 </div>
             </div>
-                    
+
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12 perso">
                     <div class="work-item">
