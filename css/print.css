@@ -3,19 +3,20 @@
     margin: 0 0 0 10px;
 }
 
-  body { 
+  body {
   margin :0;
   padding: 0;
   border :none;
 }
 
   img{
-    width: 99%;
     margin: 0;
     padding: 0;
+    width:100%;
+    height:100%;
     display: block;
     vertical-align: middle;
-    margin-top: 10px;
+    box-shadow: none;
   }
 
 .none{
@@ -34,7 +35,7 @@
 }
 
 @media screen{
-  
+
   body{
     background-color: #f7f7f7;
 }
