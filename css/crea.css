@@ -42,7 +42,7 @@
     position: relative;
 }
 
-.work-item > img {
+.work-item a img {
   display: block;
   height: auto;
   max-width: 100%;

@@ -97,6 +97,9 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 .navbar-default .navbar-nav>.active>a{border-radius:0;color:#fff;background-color:#fed136}
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#fff;background-color:#fec503}
 
+.navbar-header img{
+	max-width: 50px;
+}
 
 header{
   position:relative;
@@ -464,11 +467,10 @@ section#contact .section-heading{color:#fff; margin-top: 1.2em;}
 }
 
 footer{padding:25px 0;text-align:center}
-footer span.copyright{line-height:40px;font-family:'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
-footer ul.quicklinks{margin-bottom:0;line-height:40px;font-family:"Helvetica Neue",'Roboto','Montserrat',Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
-
+footer span.copyright{line-height:40px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
+footer ul.social-buttons a{margin-bottom:0;line-height:40px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
 ul.social-buttons{margin-bottom:0}
-ul.social-buttons li a{display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:20px;line-height:40px;color:#fff;outline:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
+ul.social-buttons li a{display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:19px;line-height:40px;color:#fff;outline:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
 ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{background-color:#fed136}
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
@@ -489,6 +491,32 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 .portfolio-modal .close-modal .lr{height:75px;width:1px;margin-left:35px;background-color:#222;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);z-index:1051}
 .portfolio-modal .close-modal .lr .rl{height:75px;width:1px;background-color:#222;transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);z-index:1052}
 .portfolio-modal .modal-backdrop{opacity:0;display:none}::-moz-selection{text-shadow:none;background:#fed136}::selection{text-shadow:none;background:#fed136}img::selection{background:0 0}img::-moz-selection{background:0 0}body{webkit-tap-highlight-color:#fed136}
+
+@media (max-width:750px) {
+	.portfolio-modal .modal-content{padding:35px 0;}
+	.portfolio-modal .close-modal{position:absolute;width:35px;height:35px;background-color:transparent;top:25px;right:45px;cursor:pointer}
+	.portfolio-modal .close-modal .lr{height:35px;width:1px}
+	.portfolio-modal .close-modal .lr .rl{height:35px;width:1px}
+
+	#loading {
+	   width: 100%;
+	   height: 100%;
+	   margin: 0 auto;
+	   position: fixed;
+	   display: block;
+	   opacity: 1;
+	   background-color: #fff;
+	   z-index: 99;
+	   text-align: center;
+	}
+
+	#loading-image {
+	  left: 35%;
+	  position: absolute;
+	  top: 30%;
+	  z-index: 100;
+	}
+}
 
 .portfolio-modal .modal-content p.work{
 	/*border: #fed136 2px dotted;*/
