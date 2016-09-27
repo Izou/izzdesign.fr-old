@@ -109,7 +109,7 @@
 
 .fancybox-nav {
 	position: absolute;
-	top: 0;
+	/*top: 0;*/
 	width: 40%;
 	height: 100%;
 	cursor: pointer;
@@ -120,22 +120,22 @@
 }
 
 .fancybox-prev {
-	left: -60px;
+	left: 20%;
 }
 
 .fancybox-next {
-	right: -60px;
+	right: 20%;
 }
 
 .fancybox-nav span {
 	position: absolute;
-	top: 50%;
+	/*top: 50%;*/
 	width: 40px;
 	height: 60px;
-	margin-top: -18px;
+	margin-top: 18px;
 	cursor: pointer;
 	z-index: 8040;
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 
 .fancybox-prev span {
@@ -164,7 +164,7 @@
 /* Overlay helper */
 
 .fancybox-lock {
-    overflow: hidden !important;
+    /*overflow: hidden !important;*/
     width: auto;
 }
 
