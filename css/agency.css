@@ -43,7 +43,7 @@ p{
 
 p.large{
 	font-size:1.1em;
-	font-family: arial, "Helvetica Neue", sans-serif;
+	font-family: "Droid Serif", "Helvetica Neue", sans-serif;
 }
 
 p.bold{
@@ -212,7 +212,7 @@ section h2.section-heading{
 
 section p.section-subheading{
 	font-size:17px;
-	font-family:sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:none;
 	/*font-style:italic;*/
 	font-weight:400;
