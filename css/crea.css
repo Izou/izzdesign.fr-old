@@ -49,6 +49,12 @@
   width:100%;
 }
 
+.comic-item{
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
 .comic-item a img {
   display: block;
   height: auto;
