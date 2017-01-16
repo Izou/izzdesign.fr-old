@@ -70,7 +70,9 @@ a,a:hover,a:focus,a:active,a.active{outline:0}
 a{color:#fed136}
 a:hover,a:focus,a:active,a.active{color:#fec503}
 h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
-.img-centered{margin:0 auto}.bg-light-gray{background-color:#f7f7f7}
+.img-centered{margin:0 auto}
+.marge{margin-bottom: 5em}
+.bg-light-gray{background-color:#f7f7f7}
 .bg-darkest-gray{background-color:#222}
 .btn-primary{color:#fff;background-color:#fed136;border-color:#fed136;font-family:"Helvetica Neue",'Roboto',Montserrat,Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary{color:#fff;background-color:#fec503;border-color:#f6bf01}
@@ -216,7 +218,7 @@ section p.section-subheading{
 	text-transform:none;
 	/*font-style:italic;*/
 	font-weight:400;
-	margin-bottom:4em;
+	margin-bottom:3em;
 }
 
 #portfolio .portfolio-item{margin:0 0 30px}
