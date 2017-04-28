@@ -81,13 +81,13 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 .btn-primary.active{background-color:#fed136;border-color:#fed136}
 .btn-primary .badge{color:#fed136;background-color:#fff}
 .btn-xl{color:#fff;margin:0 auto; text-align:center;background-color:#fed136;border-color:#fed136;font-family:"Helvetica Neue",'Roboto',Montserrat,Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;border-radius:3px;font-size:18px;padding:20px 40px}
-.btn-white{color:#fed136;margin:0 auto; text-align:center;background-color:#fff;border-color:#fff;font-family:"Helvetica Neue",'Roboto',Montserrat,Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;border-radius:3px;font-size:18px;padding:20px 40px}
+.btn-white{color:#34343c;margin:0 auto; text-align:center;background-color:#fff;border-color:#fff;font-family:"Helvetica Neue",'Roboto',Montserrat,Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;border-radius:3px;font-size:18px;padding:20px 40px}
 .btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{color:#fff;background-color:#fec503;border-color:#f6bf01}
 .btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{background-image:none}
 .btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled]
 .btn-xl.active{background-color:#fed136;border-color:#fed136}
 .btn-xl .badge{color:#fed136;background-color:#fff}
-.navbar-default{background-color:#222;border-color:transparent}
+.navbar-default{background-color:#34343c;border-color:transparent}
 
 
 .navbar-default .navbar-collapse{border-color:rgba(255,255,255,.02)}
@@ -169,7 +169,7 @@ header .intro-text .intro-heading{
 }
 
 .navbar-default.navbar-shrink{
-	background-color:#222;
+	background-color:#34343c;
 	padding:10px 0;
 }
 
@@ -203,7 +203,7 @@ header .intro-text .intro-heading{
 	}
 
 section{
-	padding:100px 0
+	padding:80px;
 	}
 
 section h2.section-heading{
@@ -456,28 +456,16 @@ section p.section-subheading{
 
 
 section#contact{
-	background-image:url(../img/assets/contact.jpg);
-	background-repeat:no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 500px;
+	background-color: #34343c;
+	height: 320px;
 }
-section#contact .section-heading{color:#fff; margin-top: 1.2em;}
-
-@media (max-width:1500px){
-	section#contact{
-		background-image:url(../img/assets/contact2.jpg);
-		height: auto;
-	}
-}
+section#contact .section-heading{color:#fff;}
 
 footer{padding:25px 0;text-align:center}
 footer span.copyright{line-height:40px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
 footer ul.social-buttons a{margin-bottom:0;line-height:40px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
 ul.social-buttons{margin-bottom:0}
-ul.social-buttons li a{display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:19px;line-height:40px;color:#fff;outline:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
+ul.social-buttons li a{display:block;background-color:#34343c;height:40px;width:40px;border-radius:100%;font-size:19px;line-height:40px;color:#fff;outline:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
 ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{background-color:#fed136}
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
