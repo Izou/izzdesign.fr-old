@@ -3,7 +3,7 @@
 
 body{
 	overflow-x:hidden;
-	font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #loading {
@@ -43,7 +43,7 @@ p{
 
 p.large{
 	font-size:1.2em;
-	font-family: "Droid Serif", "Helvetica Neue", sans-serif;
+	font-family: "Roboto", "Helvetica Neue", sans-serif;
 }
 
 p.bold{
@@ -130,7 +130,6 @@ header .intro-text{
 
 header .intro-text .intro-lead-in{
 	/*font-family: "Lato", sans-serif;*/
-	font-family:'Roboto',Helvetica,"Helvetica Neue",Arial,sans-serif;
 	font-weight: 700;
 	font-size:22px;
 	line-height:22px;
@@ -140,7 +139,6 @@ header .intro-text .intro-lead-in{
 	}
 
 header .intro-text .intro-heading{
-	font-family: "Helvetica Neue",'Roboto Slab', 'Montserrat',Helvetica,Arial,sans-serif;
 	text-transform:uppercase;
 	font-weight:900;
 	font-size:7em;
@@ -214,7 +212,7 @@ section h2.section-heading{
 
 section p.section-subheading{
 	font-size:17px;
-	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-transform:none;
 	/*font-style:italic;*/
 	font-weight:400;
